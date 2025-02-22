@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malay Mukherjee</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons8-website-48.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons8-website-48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons8-website-48.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <meta name="author" content="WebLynks" />
+
+
+    <!-- Set Chrome/Android Theme Color -->
+    <meta name="theme-color" content="#0B3C76">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gitanshu Impex Pvt. Ltd."/>
+    <meta property="og:description" content="Malay Mukherjee">
+    <meta property="og:image" content="https://github.com/gitanshugupta7/KundanGupta/blob/master/previewimage.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Gitanshu Impex Pvt. Ltd.">
+
+    <title>Jitendra Gupta</title>
+    <style>
+        /* Import Open Sans Bold from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            /* Prevent scrolling */
+            font-family: 'Open Sans', sans-serif;
+            /* Default to Open Sans */
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0B3C76;
+            /* Background color */
+        }
+
+        /* Card Container mimicking a mobile screen */
+        .card {
+            width: 100%;
+            height: 100%;
+            max-width: 375px;
+            /* Typical mobile width */
+            max-height: 667px;
+            /* Typical mobile height */
+            background-color: #0B3C76;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header image section */
+        .header {
+            width: 100%;
+            height: 200px;
+            /* Adjust height as needed */
+            background: url('header.png') no-repeat center;
+            background-size: cover;
+            flex-shrink: 0;
+        }
+
+        /* Information Section */
+        .info {
+            flex: 1;
+            padding: 20px;
+            text-align: left;
+            color: #fff;
+            overflow: hidden;
+            /* Prevent scrolling */
+        }
+
+        .info .name {
+            font-size: 32px;
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        .info .designation {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        /* Updated contact section with icons */
+        .contact {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .contact .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .contact .contact-item img.contact-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+
+        /* Map iframe styling */
+        .map-container {
+            margin: 12px 0 25px 0;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 150px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        /* Button group container */
+        .button-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        /* vCard Download Button */
+        .save-contact-btn {
+            background-color: #fff;
+            color: #0B3C76;
+            text-decoration: none;
+            padding: 10px 26px;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .save-contact-btn:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+
+        /* Icon placeholder styling in the button group */
+        .icon {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .icon:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer section */
+        .footer {
+            font-size: 0.8rem;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            flex-shrink: 0;
+            opacity: 0.8;
+        }
+
+        /* Responsive: For screens smaller than 375px, ensure the card fills the viewport */
+        @media (max-width: 375px) {
+            .card {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <!-- Header Image -->
+        <div class="header"></div>
+
+        <!-- Information Section -->
+        <div class="info">
+            <div class="name">Malay Mukherjee</div>
+            <div class="designation">Finance Executive</div>
+            <div class="contact">
+                <div class="contact-item">
+                    <a href="tel:+917980242819"><img class="contact-icon" src="./icons8-phone-100.png" alt="Phone Icon">
+                    <span>+91 79802 42819</span></a>
+                </div>
+                <div class="contact-item">
+                    <img class="contact-icon" src="./icons8-mail-96.png" alt="Email Icon">
+                    <span>gitanshuimpex@gmail.com</span>
+                </div>
+            </div>
+
+            <!-- Map Iframe -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.809684689674!2d88.32074957507582!3d22.511322579535506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027b294f59d1e9%3A0x665c88e56c261f1f!2sGitanshu%20Impex%20Private%20Limited!5e0!3m2!1sen!2sin!4v1740243170816!5m2!1sen!2sin"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <!-- Button Group: Save Contact Button with placeholders for call and email icons -->
+            <div class="button-group">
+                <a class="save-contact-btn" href="./vcard.vcf" download>Save My Contact</a>
+                <!-- Replace 'path-to-call-icon.png' with your own call icon file -->
+                <a href="https://wa.link/bgll1c" title="Call">
+                    <img class="icon" src="./icons8-whatsapp-480.png" alt="Call Icon">
+                </a>
+                <!-- Replace 'path-to-email-icon.png' with your own email icon file -->
+                <a href="mailto:gitanshuimpex@gmail.com" title="Email">
+                    <img class="icon" src="./icons8-mail-96.png" alt="Email Icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2025 Gitanshu Impex Pvt. Ltd.
+        </div>
+    </div>
+</body>
+
+</html>
